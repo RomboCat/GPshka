@@ -8,14 +8,14 @@ class CfgPatches {
 		weapons[] = {};
 	};
 };
-class rhs_VG40OP_white;
+class CfgMagazines;
 class rhs_VG40OP_green: rhs_VG40OP_white {
 	displayName	= ВГ-400П;
-	displayNameShort = Зеленый;
+	displayNameShort = "Зеленый";
 	descriptionShort = Тип: Осветительная граната<br/>Взрыватель: Запал<br/>Используется: ГП-25
 };
 class rhs_VG40OP_red: rhs_VG40OP_white {
 	displayName	= ВГ-400П;
-	displayNameShort = Красный;
+	displayNameShort = "Красный";
 	descriptionShort = Тип: Осветительная граната<br/>Взрыватель: Запал<br/>Используется: ГП-25
 };
