@@ -11,8 +11,8 @@ class CfgPatches {
 class CfgMagazines
 {
 class 1Rnd_HE_Grenade_shell;
-class rhs_VOG25: 1Rnd_HE_Grenade_shell;
-class rhs_VG40OP_white: rhs_VOG25;
+class rhs_VOG25: 1Rnd_HE_Grenade_shell{};
+class rhs_VG40OP_white: rhs_VOG25{};
 class rhs_VG40OP_green: rhs_VG40OP_white {
 	displayName	= "ВГ-400П";
 	displayNameShort = "Зеленый";
