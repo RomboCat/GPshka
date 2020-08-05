@@ -35,16 +35,16 @@ class rhs_VG40OP_red: rhs_VG40OP_white {
 	displayNameShort = "ВГ-400П";
 	descriptionShort = Тип: Осветительная граната<br/>Взрыватель: Запал (3 секунды)<br/>Используется: ГП-25
 };
-class rhs_VG40OP_purple;
 class rhs_VG40OP_purpleCat: rhs_VG40OP_white
 {
+	ammo = rhs_VG40OP_purple
 	displayName	= "ВГ-400П (фиолетовый)";
 	displayNameShort = "ВГ-400П";
 	descriptionShort = Тип: Осветительная граната<br/>Взрыватель: Запал (3 секунды)<br/>Используется: ГП-25
 };
-class rhs_VG40OP_test;
 class rhs_VG40OP_testCat: rhs_VG40OP_white
 {
+	ammo = rhs_VG40OP_test
 	displayName	= "ВГ-400П (тест)";
 	displayNameShort = "ВГ-400П";
 	descriptionShort = Тип: Осветительная граната<br/>Взрыватель: Запал (3 секунды)<br/>Используется: ГП-25
