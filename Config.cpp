@@ -9,6 +9,7 @@ class CfgPatches {
 	};
 };
 class CfgMagazines;
+class rhs_VG40OP_white;
 class rhs_VG40OP_green: rhs_VG40OP_white {
 	displayName	= ВГ-400П;
 	displayNameShort = "Зеленый";
