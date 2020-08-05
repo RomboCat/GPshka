@@ -44,3 +44,10 @@ class rhs_VG40OP_test: rhs_VG40OP_purple
 	descriptionShort = Тип: Осветительная граната<br/>Взрыватель: Запал (3 секунды)<br/>Используется: ГП-25
 };
 };
+CfgMagazinesWells
+{
+	rhs_afrfCat[] = {
+	"rhs_VG40OP_purpleCat"
+	"rhs_VG40OP_test"
+};
+}
