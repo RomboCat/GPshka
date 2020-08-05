@@ -10,8 +10,12 @@ class CfgPatches {
 };
 class rhs_VG40OP_white;
 class rhs_VG40OP_green: rhs_VG40OP_white {
-	MAG_DESC_GP25_COLORED(ВГ-400П,зеленый,осветительная граната,запал (3 секунды));
+	displayName	= ВГ-400П;
+	displayNameShort = Зеленый;
+	descriptionShort = Тип: Осветительная граната<br/>Взрыватель: Запал<br/>Используется: ГП-25
 };
 class rhs_VG40OP_red: rhs_VG40OP_white {
-	MAG_DESC_GP25_COLORED(ВГ-400П,красный,осветительная граната,запал (3 секунды));
+	displayName	= ВГ-400П;
+	displayNameShort = Красный;
+	descriptionShort = Тип: Осветительная граната<br/>Взрыватель: Запал<br/>Используется: ГП-25
 };
