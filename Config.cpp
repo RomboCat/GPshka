@@ -11,7 +11,14 @@ class CfgPatches {
 class CfgAmmo
 {
 	class F_40mm_white;
-	class rhs_VG40OP_purple: F_40mm_white{};
+	class rhs_VG40OP_purple: F_40mm_white
+	{
+		lightColor = [1, 0, 1, 1];
+	};
+	class rhs_VG40OP_test: F_40mm_white
+	{
+		lightColor = [0.4, 0.3, 0.1, 0];
+	};
 }
 class CfgMagazines
 {
@@ -31,14 +38,13 @@ class rhs_VG40OP_red: rhs_VG40OP_white {
 class rhs_VG40OP_purple;
 class rhs_VG40OP_purpleCat: rhs_VG40OP_purple
 {
-	lightColor = [1, 0, 1, 1];
 	displayName	= "ВГ-400П (фиолетовый)";
 	displayNameShort = "ВГ-400П";
 	descriptionShort = Тип: Осветительная граната<br/>Взрыватель: Запал (3 секунды)<br/>Используется: ГП-25
 };
-class rhs_VG40OP_test: rhs_VG40OP_purple
+class rhs_VG40OP_test;
+class rhs_VG40OP_testCat: rhs_VG40OP_test
 {
-	lightColor = [0.4, 0.3, 0.1, 0];
 	displayName	= "ВГ-400П (тест)";
 	displayNameShort = "ВГ-400П";
 	descriptionShort = Тип: Осветительная граната<br/>Взрыватель: Запал (3 секунды)<br/>Используется: ГП-25
