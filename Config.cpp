@@ -13,11 +13,11 @@ class CfgAmmo
 	class F_40mm_white;
 	class rhs_VG40OP_purple: F_40mm_white
 	{
-		lightColor = [0.5, 0, 0.5, 0.5];
+		lightColor [] = {1, 0, 1, 0.5};
 	};
 	class rhs_VG40OP_test: F_40mm_white
 	{
-		lightColor = [0.4, 0.3, 0.1, 0.5];
+		lightColor [] = {0.4, 0.3, 0.1, 0.5};
 	};
 }
 class CfgMagazines
