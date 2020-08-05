@@ -8,7 +8,7 @@ class CfgPatches {
 		weapons[] = {};
 	};
 };
-class rhs_VG40OP_white
+class rhs_VG40OP_white;
 class rhs_VG40OP_green: rhs_VG40OP_white {
 	MAG_DESC_GP25_COLORED(ВГ-400П,зеленый,осветительная граната,запал (3 секунды));
 };
