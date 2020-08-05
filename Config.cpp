@@ -46,8 +46,8 @@ class rhs_VG40OP_test: rhs_VG40OP_purple
 };
 CfgMagazinesWells
 {
-	rhs_afrfCat[] = {
-	"rhs_VG40OP_purpleCat"
+class rhs_afrfCat[] = {
+	"rhs_VG40OP_purpleCat",
 	"rhs_VG40OP_test"
 };
 }
